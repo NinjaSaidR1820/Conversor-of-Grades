@@ -94,5 +94,20 @@ namespace Conversor_of_Grades
         {
             Resolver();
         }
+
+        private void txtIngreso_TextChanged(object sender, EventArgs e)
+        {
+            Resolver();
+        }
+
+        private void cbTipodeTemp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Resolver();
+        }
+
+        private void cbTipoAConvertir_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Resolver();
+        }
     }
 }
